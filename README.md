@@ -20,6 +20,17 @@ This project is an Arduino-based automatic car wiper system that detects rain us
 - Jumper Wires
 - USB Cable
 
+## Circuit Connections
+
+| Component | Pin | Arduino Uno Pin |
+|-----------|-----|-----------------|
+| Rain Sensor Module | VCC | 5V |
+| Rain Sensor Module | GND | GND |
+| Rain Sensor Module | AO | A0 |
+| Servo Motor | Signal | D9 |
+| Servo Motor | VCC | 5V |
+| Servo Motor | GND | GND |
+
 ## Circuit
 
 The rain sensor is connected to Arduino Analog Pin A0.
